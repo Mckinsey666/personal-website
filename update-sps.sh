@@ -1,0 +1,1 @@
+cp -R * ../google-sps-2020/portfolio/src/main/webapp/
