@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Brian Chao</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font embeddings -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
+    <script src="script.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    
+  </head>
+  <body onload="loadPage()">
+    <div id="navigation">
+      <div class="nav-item">
+        <a href="#header">Introduction</a>
+      </div>
+      <div class="nav-item">
+        <a href="#background">Background and Experience</a>
+      </div>
+      <div class="nav-item">
+        <a href="#projects">Personal Projects</a>
+        
+      </div>
+      <div class="nav-item">
+        Blog
+      </div>
+      <div class="nav-item">
+        Contact
+      </div>
+    </div>
+    <div id="content">
+      <div id="header">
+        <div id="intro">
+          <h1>Brian Chao</h1>
+          <p>I am a junior EECS student at National Taiwan University.
+            My interests span general software development (especially open source software), 
+            machine learning, image processing, and math. In my free time, I maintain several 
+            fun projects on <a href="https://github.com/Mckinsey666">Github</a>.
+          </p>
+          <div id="social">
+            <a href="https://github.com/Mckinsey666"><img src="images/social/github.svg"></a>
+            <a href="https://www.linkedin.com/in/brian-chao-85425415a/"><img src="images/social/linkedin.svg"></a>
+            <a href="https://www.facebook.com/dshsdhtgeheth.dgshsgedhegh"><img src="images/social/facebook.svg"></a>
+            <a href="https://www.instagram.com/whereisbrianchao520/"><img src="images/social/instagram.svg"></a>
+          </div>
+        </div>
+        <div id="avatar">
+          <img id="avatar-img" src="images/avatar/avatar_1.png" onclick="onAvatarClick()"></img>
+        </div>
+      </div>
+
+      <div id="background">
+        <h2>Backgrounds and Experience</h2>
+        <div id="background-timeline">
+          <div class="background-item">
+            <img class="background-item-img" src="images/background/ntu.png">
+            <div class="background-where">National Taiwan University</div>
+            <div class="background-title">B.S. in Electrical Engineering</div>
+          </div>
+          <div class="background-item">
+            <img class="background-item-img" src="images/background/wq.png">
+            <div class="background-where">WorldQuant</div>
+            <div class="background-title">Quantitative Finance Research Intern</div>
+          </div>
+          <div class="background-item">
+            <img class="background-item-img" src="images/background/ntu.png">
+            <div class="background-where">NTU @VLL Lab</div>
+            <div class="background-title">Undergraduate Researcher</div>
+          </div>
+          <div class="background-item">
+            <img class="background-item-img" src="images/background/eesa.png">
+            <div class="background-where">NTUEE Students' Association</div>
+            <div class="background-title">Director of Informa-tion Department</div>
+          </div>
+          <div class="background-item">
+            <img class="background-item-img" src="images/background/nehs.png">
+            <div class="background-where">NEHS @Hsinchu Science Park</div>
+            <div class="background-title">Class of Scientific Merits</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="projects">
+        <h2>Personal Projects</h2>
+        <p>
+          I create open-source projects in my free time. As for 2020 July 1<sub>st</sub>,
+          I have acquired over 3500 stars and 100+ followers on Github. Have a quick glance
+          at some of my work!
+        </p>
+        <div style="width: 100%; text-align: center;">
+          <a class="github-button" href="https://github.com/Mckinsey666" data-size="large" data-show-count="true" aria-label="Follow @Mckinsey666 on GitHub">Follow @Mckinsey666</a>
+        </div>
+
+        <div id="project-bullet" class="project-item">
+          <div class="project-info">
+            <!-- Place this tag where you want the button to render. -->
+            <h3>bullet</h3>
+            <p>Interactive prompts made simple. Build a prompt like stacking blocks.</p>
+            <ul>
+              <li>2800+ stars, Github Trending Repository</li>
+              <li>61000+ downloads, 80+ forks since its creation.</li>
+              <li>An open-source Python interactive prompts library for developing 
+                fully-customizable user-friendly command-line interfaces.</li>
+              <li>Leveraged extensive curses programming to create modules that 
+                support single/multiple choice, scroll bar, passwords, and 
+                numerous styled prompts that can be easily plugged in an existing project.</li>
+              <li>Selected by MentorCruise The most exciting upcoming 
+                Python Libraries of 2019. Featured on March 2019 Python Bytes online Podcast. </li>
+            </ul>
+          </div>
+          <div class="project-snapshot">
+            <img src="images/projects/bullet-2.gif">
+            <img src="images/projects/bullet.gif">
+            <a class="github-button" href="https://github.com/Mckinsey666/bullet" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+          </div>
+        </div>
+        
+        <div id="project-chart-race" class="project-item">
+          <div class="project-info">
+            <h3>chart-race-react </h3> 
+            <p>Seamless bar chart race component for React.</p>
+            <ul>
+              <li>330+ stars, 40+ forks on Github.</li>
+              <li>A React Components npm package that allows web developers to 
+                create beautiful and fully-customizable bar chart races animations 
+                for data visualization.</li>
+              <li>Built with React, babel, and webpack.</li>
+            </ul>
+          </div>
+          <div class="project-snapshot">
+            <img src="images/projects/chart-race.gif">
+            <img src="images/projects/chart-race-2.gif">
+            <a class="github-button" href="https://github.com/Mckinsey666/chart-race-react" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+          </div>
+        </div>
+
+        <div id="project-anime" class="project-item">
+          <div class="project-info">
+            <h3>Anime Generation</h3>
+            <p>Generating anime with generative adversarial networks.</p>
+            <ul>
+              <li>Implemented two kinds of Generative Adversarial Networks (GANs): 
+                Auxiliary Classifier GANs and Conditional GANs to generate realistic anime characters.</li>
+              <li>Users can manipulate the hair and eye colors of generated characters 
+                simply by modifying certain dimensions of network input.</li>
+              <li>Used multiprocessing to scrape large amounts of high-quality training images 
+                from e-commerce websites, making the model one of the best on Github 
+                quality-wise. (The dataset I gathered also received 180+ stars on Github, 
+                and was used by courses at NTUEE, and featured in multiple Kaggle competitions).</li>
+            </ul>
+          </div>
+          <div class="project-snapshot">
+            <img src="images/projects/anime-gen.png">
+            <a class="github-button" href="https://github.com/Mckinsey666/Anime-Generation" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+          </div>
+        </div>
+
+        <div id="project-anime-data" class="project-item">
+          <div class="project-info">
+            <h3>Anime Face Dataset</h3>
+            <p>Self curated dataset of high-quality anime faces.</p>
+          </div>
+          <div class="project-snapshot">
+            <img src="images/projects/anime-dataset.jpg">
+            <a class="github-button" href="https://github.com/Mckinsey666/Anime-Face-Dataset" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+          </div>
+        </div>
+
+        <div id="project-vocab" class="project-item">
+          <div class="project-info">
+            <h3>vocab</h3>
+            <p>A lightweight online dictionary integration to the command line.</p>
+          </div>
+          <div class="project-snapshot">
+            <img src="images/projects/vocab-2.gif">
+            <a class="github-button" href="https://github.com/Mckinsey666/vocabs" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+          </div>
+        </div>
+
+        <div id="project-rl" class="project-item">
+          <div class="project-info">
+            <h3>Reinforcement Learning Atari</h3>
+            <p>Playing Classic Atari games with RL.</p>
+            <ul>
+              <li><a href="https://github.com/Mckinsey666/Pong-Policy-Gradient">Play Pong with Policy Gradient.</a></li>
+              <li><a href="https://github.com/Mckinsey666/Breakout-Deep-Q-Learning">Play Breakout with Deep Q Learning.</a></li>
+            </ul>
+          </div>
+          <div class="project-snapshot">
+            <img class="rl-img" src="images/projects/breakout.gif">
+            <img class="rl-img" src="images/projects/pong.gif">
+          </div>
+        </div>
+
+        <div id="carousel">
+          <div id="left-button" class="arrow-button">
+            <img src="images/icons/chevrons-left.svg">
+          </div>
+          <div id="right-button" class="arrow-button">
+            <img src="images/icons/chevrons-right.svg">
+          </div>
+        </div>
+
+      </div>
+    
+      <div id="footer">
+
+      </div>
+    </div>
+  </body>
+</html>
